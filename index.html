@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WordStream</title>
     <script src="js/d3.v4.min.js"></script>
-    <script src="js/wordstream.min.js"></script>
+    <script src="js/wordstream.js"></script>
 
 </head>
 <body>
@@ -51,26 +51,30 @@
 		"Convolution": "Machine learning",
 		"learning (artificial intelligence)": "Machine learning",
 	}
+
+	const years = [2018, 2019, 2020, 2021, 2022, 2023]
+
+	// example use
+	let svg = d3.select("body").append('svg')
+			.attr("width", 1200)
+			.attr("height", 800);
+
+	let config = {
+		topWord: 25,
+		minFont: 10,
+		maxFont: 30,
+		tickFont: 12,
+		legendFont: 14,
+		curve: d3.curveMonotoneX
+	};
 </script>
 <script>
-    // example use
-    let svg = d3.select("body").append('svg')
-        .attr("width", 1000)
-        .attr("height", 800);
-
-    let config = {
-        topWord: 20,
-        minFont: 10,
-        maxFont: 30,
-        tickFont: 12,
-        legendFont: 12,
-        curve: d3.curveMonotoneX
-    };
 
     d3.csv("data/export2023-06-19.csv", function (error, data) {
         console.log(data)
 
 		let ieee_obj = {}, ieee_terms = [];
+		let ieee_year = {};
 		data.forEach(d => {
 			// extract the terms
 			if (d["IEEE Terms"]){
@@ -88,10 +92,16 @@
 					}
 				})
 			}
+
+			// year
+			if (!ieee_year[d["Publication Year"]]){
+				ieee_year[d["Publication Year"]] = 1
+			}
 		})
 
+		console.log(ieee_year)
 		// print to see
-		console.log(data.filter(d => d["IEEE Terms"].includes("Computational modeling")))
+		console.log(data.filter(d => d["Publication Year"].includes("2023")))
 
 		// classifying
 		let classified = {};
@@ -145,16 +155,85 @@
 				}
 			}
 
-			if (!flag){
-				sumcount+=1
-				console.log(d)
-			}
+			// if (!flag){
+			// 	sumcount+=1
+			// 	console.log(d)
+			// }
 		})
-		console.log(classified, sumcount, data_exe)
 
+		// format classified data here
+		console.log(classified)
+
+		let data_ws = []
+
+		// form the exact format as required
+		years.forEach(y => {
+			let yobj = {}
+			for (const p of priority){
+
+				// look into actual data
+				let records = classified[p].filter(d => d["Publication Year"] === y.toString())
+				// console.log(y, p, narrow)
+
+				let bag_of_words = []
+				if (records.length){
+					records.forEach(r => {
+						bag_of_words.push(...r["Author Keywords"].split(";"))
+						bag_of_words.push(...r["IEEE Terms"].split(";"))
+						bag_of_words.push(...r["INSPEC Controlled Terms"].split(";"))
+						bag_of_words.push(...r["INSPEC Non-Controlled Terms"].split(";"))
+					})
+				}
+				// console.log(y, p, bag_of_words)
+
+				let bow_obj = {}, counted_array = [];
+				bag_of_words.forEach(w0 => {
+					if (w0){ // length of word must not be zero
+						let w = w0.toLowerCase();
+						if (!bow_obj[w]){ // not encountered yet
+							bow_obj[w] = 1;
+							counted_array.push({
+								text: w,
+								frequency: 1,
+								topic: p,
+								id: w.split(" ").join("_") + "_" + p.split(" ").join("_") + "_" + y,
+							})
+						}
+						else { // increase frequency
+							bow_obj[w] += 1;
+							counted_array.find(f => f.text === w).frequency += 1;
+						}
+					}
+
+				})
+
+				// console.log(bow_obj)
+				// write to object
+				yobj[p] = counted_array.sort((a,b) => b.frequency - a.frequency)
+			}
+
+			data_ws.push({
+				date: y.toString(),
+				words: yobj,
+			})
+		})
 
 		console.log(ieee_obj, ieee_terms)
 		ieee_terms.sort((a,b) => b.occur - a.occur)
+
+		console.log(data_ws)
+
+		// const myTimeout = setTimeout(myGreeting, 500);
+		// function myGreeting() {
+			wordstream(svg, data_ws, config)
+		// }
+
+
+
+		// draw
+
+
+
     });
 
 
