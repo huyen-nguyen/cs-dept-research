@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WordStream</title>
+    <script src="js/d3.v4.min.js"></script>
+    <script src="js/wordstream.min.js"></script>
+
+</head>
+<body>
+<script>
+	// building the taxonomy
+
+	const bigterms = ["Machine learning", "Big Data", "Data visualization", "Computational modeling",
+		"Wireless communication", "Internet of Things", "Security",]
+
+	const priority = ["Data visualization",
+		"Security",
+		"Wireless communication",
+		"Computational modeling",
+		"Big Data",
+		"Machine learning",
+	]
+
+	const mapping = {
+		"Wireless networks": "Wireless communication",
+		"Wearable computers": "Wireless communication",
+		"Wearable sensors": "Wireless communication",
+		"Cellular networks": "Wireless communication",
+		"Visualization": "Data visualization",
+		"Visual analytics": "Data visualization",
+		"Virtual reality": "Data visualization",
+		"Spatial resolution": "Data visualization",
+		"Malware": "Security",
+		"Privacy": "Security",
+		"Classification algorithms": "Machine learning",
+		"Scheduling": "Computational modeling",
+		"Distributed databases": "Computational modeling",
+		"System performance": "Computational modeling",
+		"Data structures": "Computational modeling",
+		"Fault tolerance": "Computational modeling",
+		"Performance evaluation": "Computational modeling",
+		"Cloud computing": "Computational modeling",
+		"Machine learning algorithms": "Machine learning",
+		"Training": "Machine learning",
+		"Feature extraction": "Machine learning",
+		"Neural networks": "Machine learning",
+		"Predictive models": "Machine learning",
+		"Deep learning": "Machine learning",
+		"Convolution": "Machine learning",
+		"learning (artificial intelligence)": "Machine learning",
+	}
+</script>
+<script>
+    // example use
+    let svg = d3.select("body").append('svg')
+        .attr("width", 1000)
+        .attr("height", 800);
+
+    let config = {
+        topWord: 20,
+        minFont: 10,
+        maxFont: 30,
+        tickFont: 12,
+        legendFont: 12,
+        curve: d3.curveMonotoneX
+    };
+
+    d3.csv("data/export2023-06-19.csv", function (error, data) {
+        console.log(data)
+
+		let ieee_obj = {}, ieee_terms = [];
+		data.forEach(d => {
+			// extract the terms
+			if (d["IEEE Terms"]){
+				let term_array = d["IEEE Terms"].split(";")
+				term_array.forEach(e => {
+					if (!ieee_obj[e]){
+						ieee_obj[e] = 1;
+						ieee_terms.push({
+							term: e,
+							occur: 1
+						});
+					} else {
+						ieee_obj[e] += 1;
+						ieee_terms.find(g => g.term === e).occur += 1
+					}
+				})
+			}
+		})
+
+		// print to see
+		console.log(data.filter(d => d["IEEE Terms"].includes("Computational modeling")))
+
+		// classifying
+		let classified = {};
+		priority.forEach(p => {
+			classified[p] = []
+		})
+
+		// deep clone
+		let data_exe = JSON.parse(JSON.stringify(data)), sumcount = 0;
+
+		data_exe.forEach((d,i) => {
+			// put in categories by priority
+			let flag = false;
+			for (let j = 0; j < priority.length; j++){
+				let p = priority[j]
+				if (d["IEEE Terms"].includes(p)){
+					flag = true;
+					classified[p].push(d);
+					break;
+				}
+				else if (d["Author Keywords"].toLowerCase().includes(p.toLowerCase())
+						|| d["INSPEC Controlled Terms"].toLowerCase().includes(p.toLowerCase())
+						|| d["Author Keywords"].toLowerCase().includes(p.toLowerCase())
+				)
+				{
+					flag = true;
+					classified[p].push(d);
+					break;
+				}
+			}
+
+			// still not categorized? use mapping
+			if (!flag){
+				for (let k = 0; k < Object.keys(mapping).length; k++){
+					let m = Object.keys(mapping)[k]
+					if (d["IEEE Terms"].includes(m)){
+						flag = true;
+						classified[mapping[m]].push(d);
+						break;
+					}
+					else if (d["Author Keywords"].toLowerCase().includes(m.toLowerCase())
+							|| d["INSPEC Controlled Terms"].toLowerCase().includes(m.toLowerCase())
+							|| d["INSPEC Non-Controlled Terms"].toLowerCase().includes(m.toLowerCase())
+
+					)
+					{
+						flag = true;
+						classified[mapping[m]].push(d);
+						break;
+					}
+				}
+			}
+
+			if (!flag){
+				sumcount+=1
+				console.log(d)
+			}
+		})
+		console.log(classified, sumcount, data_exe)
+
+
+		console.log(ieee_obj, ieee_terms)
+		ieee_terms.sort((a,b) => b.occur - a.occur)
+    });
+
+
+</script>
+</body>
+</html>
