@@ -1,0 +1,1232 @@
+[
+  {
+	"date": "Jan 2013",
+	"words": {
+	  "person": [
+		{
+		  "sudden": 8,
+		  "text": "Thank you!",
+		  "frequency": 12,
+		  "topic": "person",
+		  "id": "swartz_person_10"
+		},
+		{
+		  "sudden": 8,
+		  "text": "谢谢",
+		  "frequency": 7,
+		  "topic": "person",
+		  "id": "aaron_swartz_person_10"
+		},
+		{
+		  "sudden": 5.333333333333333,
+		  "text": "Cảm ơn",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "john_brennan_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "متشکرم",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "brennan_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "mohamed_osman_mohamud_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Cảm ơn",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "aaron_person_10"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Cảm ơn",
+		  "frequency": 8,
+		  "topic": "person",
+		  "id": "dianne_feinstein_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "ধন্যবাদ",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "tommy_vietor_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "спасибо",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "sam_alito_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Thank you!",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "obama_s_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "متشکرم",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "pham_person_9"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "jason_leopold_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "jack_goldsmith_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "abu_zubaydah_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "mohamud_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Cảm ơn",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "aaron_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "jason_leopold_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "jack_goldsmith_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "abu_zubaydah_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "mohamud_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "jack_goldsmith_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "abu_zubaydah_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Thank you!",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "mohamud_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "jack_goldsmith_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "abu_zubaydah_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "mohamud_person_10"
+		}
+	  ],
+	  "empty": [],
+	  "location": [
+		{
+		  "sudden": 5,
+		  "text": "Any questions?",
+		  "frequency": 4,
+		  "topic": "location",
+		  "id": "massachusetts_location_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 3,
+		  "topic": "location",
+		  "id": "portland_location_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 3,
+		  "topic": "location",
+		  "id": "guantanamo_bay_location_10"
+		},
+		{
+		  "sudden": 3.6666666666666665,
+		  "text": "Any questions?",
+		  "frequency": 10,
+		  "topic": "location",
+		  "id": "yemen_location_10"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Any questions?",
+		  "frequency": 2,
+		  "topic": "location",
+		  "id": "minnesota_location_10"
+		}
+	  ]
+	}
+  },
+  {
+	"date": "Feb 2013",
+	"words": {
+	  "person": [
+		{
+		  "sudden": 6,
+		  "text": "Thank you",
+		  "frequency": 12,
+		  "topic": "person",
+		  "id": "daniel_klaidman_person_9"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Cảm ơn",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "david_petraeus_person_9"
+		},
+		{
+		  "sudden": 4,
+		  "text": "谢谢",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "drone_person_9"
+		},
+		{
+		  "sudden": 4,
+		  "text": "спасибо",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "klaidman_person_9"
+		},
+		{
+		  "sudden": 3.3333333333333335,
+		  "text": "谢谢",
+		  "frequency": 15,
+		  "topic": "person",
+		  "id": "anwar_al_awlaki_person_9"
+		},
+		{
+		  "sudden": 5,
+		  "text": "متشکرم",
+		  "frequency": 9,
+		  "topic": "person",
+		  "id": "brennan_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "mohamed_osman_mohamud_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Cảm ơn",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "aaron_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "jason_leopold_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "jack_goldsmith_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "abu_zubaydah_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "mohamud_person_10"
+		}
+	  ],
+	  "empty": [],
+	  "location": [
+		{
+		  "sudden": 5,
+		  "text": "Any questions?",
+		  "frequency": 1,
+		  "topic": "location",
+		  "id": "benghazi_location_9"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 3,
+		  "topic": "location",
+		  "id": "pentagon_location_9"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 2,
+		  "topic": "location",
+		  "id": "arabian_location_9"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Questions?",
+		  "frequency": 1,
+		  "topic": "location",
+		  "id": "benghazi_location_9"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 3,
+		  "topic": "location",
+		  "id": "pentagon_location_9"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 2,
+		  "topic": "location",
+		  "id": "arabian_location_9"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Questions?",
+		  "frequency": 1,
+		  "topic": "location",
+		  "id": "benghazi_location_9"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 3,
+		  "topic": "location",
+		  "id": "pentagon_location_9"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 2,
+		  "topic": "location",
+		  "id": "arabian_location_9"
+		}
+	  ]
+	}
+  },
+  {
+	"date": "Mar 2013",
+	"words": {
+	  "person": [
+		{
+		  "sudden": 4,
+		  "text": "Thank you!",
+		  "frequency": 17,
+		  "topic": "person",
+		  "id": "bradley_manning_person_8"
+		},
+		{
+		  "sudden": 4,
+		  "text": "спасибо",
+		  "frequency": 12,
+		  "topic": "person",
+		  "id": "mueller_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "谢谢",
+		  "frequency": 8,
+		  "topic": "person",
+		  "id": "donald_rumsfeld_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Thank you!",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "mark_mazzetti_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "спасибо",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "ruth_bader_ginsburg_person_8"
+		},
+		{
+		  "sudden": 4,
+		  "text": "спасибо",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "tamerlan_tsarnaev_person_6"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 12,
+		  "topic": "person",
+		  "id": "rand_paul_person_6"
+		},
+		{
+		  "sudden": 3,
+		  "text": "ধন্যবাদ",
+		  "frequency": 8,
+		  "topic": "person",
+		  "id": "roberts_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "谢谢",
+		  "frequency": 5,
+		  "topic": "person",
+		  "id": "john_roberts_person_8"
+		},{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 7,
+		  "topic": "person",
+		  "id": "rand_paul_person_6"
+		},
+		{
+		  "sudden": 3,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "roberts_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Thank you!",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "obama_s_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "متشکرم",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "pham_person_9"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 3,
+		  "text": "谢谢",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "john_roberts_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "متشکرم",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "kennedy_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Cảm ơn",
+		  "frequency": 8,
+		  "topic": "person",
+		  "id": "dianne_feinstein_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "ধন্যবাদ",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "tommy_vietor_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "спасибо",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "sam_alito_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Thank you!",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "obama_s_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "متشکرم",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "pham_person_9"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Cảm ơn!",
+		  "frequency": 8,
+		  "topic": "person",
+		  "id": "zahir_azimi_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "спасибо",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "adam_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "roberts_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "谢谢",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "john_roberts_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "متشکرم",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "kennedy_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "ধন্যবাদ",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "zahir_azimi_person_8"
+		},
+		{
+		  "sudden": 3,
+		  "text": "спасибо",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "adam_person_8"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Cảm ơn",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "aaron_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "jason_leopold_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "jack_goldsmith_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "abu_zubaydah_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "mohamud_person_10"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Thank you",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "tamerlan_person_7"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Cảm ơn",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "aaron_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "jason_leopold_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "jack_goldsmith_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "abu_zubaydah_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "mohamud_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "jack_goldsmith_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 8,
+		  "topic": "person",
+		  "id": "jack_goldsmith_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "متشکرم",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "jack_goldsmith_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "abu_zubaydah_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "abu_zubaydah_person_10"
+		},
+		{
+		  "sudden": 4,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "mohamud_person_10"
+		}
+	  ],
+	  "empty": [],
+	  "location": [
+		{
+		  "sudden": 6,
+		  "text": "Any questions?",
+		  "frequency": 10,
+		  "topic": "location",
+		  "id": "guantanamo_location_8"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 6,
+		  "topic": "location",
+		  "id": "guantanamo_bay_location_8"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 5,
+		  "topic": "location",
+		  "id": "cuba_location_8"
+		},
+		{
+		  "sudden": 6,
+		  "text": "Any questions?",
+		  "frequency": 10,
+		  "topic": "location",
+		  "id": "guantanamo_location_8"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 6,
+		  "topic": "location",
+		  "id": "guantanamo_bay_location_8"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 5,
+		  "topic": "location",
+		  "id": "cuba_location_8"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 3,
+		  "topic": "location",
+		  "id": "iraq_war_location_8"
+		}
+	  ]
+	}
+  },
+  {
+	"date": "Apr 2013",
+	"words": {
+	  "person": [
+		{
+		  "sudden": 6,
+		  "text": "Thank you",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "tsttnaev_person_7"
+		},
+		{
+		  "sudden": 6,
+		  "text": "谢谢",
+		  "frequency": 5,
+		  "topic": "person",
+		  "id": "tsarnaev_person_7"
+		},{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 7,
+		  "topic": "person",
+		  "id": "mohamed_osman_mohamud_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},{
+		  "sudden": 3,
+		  "text": "Cảm ơn",
+		  "frequency": 8,
+		  "topic": "person",
+		  "id": "dianne_feinstein_person_9"
+		},{
+		  "sudden": 4,
+		  "text": "спасибо",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "pruitt_person_6"
+		},
+		{
+		  "sudden": 4,
+		  "text": "thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "goldman_person_6"
+		},
+		{
+		  "sudden": 3.5,
+		  "text": "ধন্যবাদ",
+		  "frequency": 6,
+		  "topic": "person",
+		  "id": "anwar_al_awlaki_person_6"
+		},
+		{
+		  "sudden": 3.4,
+		  "text": "谢谢",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "john_brennan_person_6"
+		},
+		{
+		  "sudden": 3,
+		  "text": "ধন্যবাদ",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "tommy_vietor_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "спасибо",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "sam_alito_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Thank you!",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "obama_s_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "متشکرم",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "pham_person_9"
+		},
+		{
+		  "sudden": 4,
+		  "text": "спасибо",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "michael_hayden_person_7"
+		},
+		{
+		  "sudden": 4,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "mazzetti_person_7"
+		},
+		{
+		  "sudden": 3,
+		  "text": "谢谢",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "hillary_clinton_person_7"
+		},
+		{
+		  "sudden": 3,
+		  "text": "спасибо",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "ray_kelly_person_7"
+		},
+		{
+		  "sudden": 3,
+		  "text": "ধন্যবাদ",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "scahill_person_7"
+		},
+		{
+		  "sudden": 3,
+		  "text": "متشکرم",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "dirty_wars_person_7"
+		},
+		{
+		  "sudden": 3,
+		  "text": "谢谢",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "davis_person_7"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Thank you",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "tamerlan_person_7"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Cảm ơn",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "aaron_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "jason_leopold_person_10"
+		}
+	  ],
+	  "empty": [],
+	  "location": [
+		{
+		  "sudden": 10,
+		  "text": "Any questions?",
+		  "frequency": 9,
+		  "topic": "location",
+		  "id": "boston_location_7"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 8,
+		  "topic": "location",
+		  "id": "balochistan_location_7"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Any questions?",
+		  "frequency": 2,
+		  "topic": "location",
+		  "id": "egypt_location_7"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Any questions?",
+		  "frequency": 2,
+		  "topic": "location",
+		  "id": "gitmo_location_7"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Any questions?",
+		  "frequency": 2,
+		  "topic": "location",
+		  "id": "asia_location_7"
+		}
+	  ]
+	}
+  },
+  {
+	"date": "May 2013",
+	"words": {
+	  "person": [
+		{
+		  "sudden": 5,
+		  "text": "متشکرم",
+		  "frequency": 14,
+		  "topic": "person",
+		  "id": "ibragim_todashev_person_6"
+		},
+		{
+		  "sudden": 7,
+		  "text": "Thank you!",
+		  "frequency": 6,
+		  "topic": "person",
+		  "id": "fahd_al_quso_person_6"
+		},
+		{
+		  "sudden": 6,
+		  "text": "Cảm ơn!",
+		  "frequency": 5,
+		  "topic": "person",
+		  "id": "todashev_person_6"
+		},
+		{
+		  "sudden": 6,
+		  "text": "Thank you",
+		  "frequency": 5,
+		  "topic": "person",
+		  "id": "robert_mueller_person_6"
+		},
+
+		{
+		  "sudden": 5,
+		  "text": "متشکرم",
+		  "frequency": 7,
+		  "topic": "person",
+		  "id": "ibragim_todashev_person_6"
+		},
+		{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "mohamed_osman_mohamud_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Cảm ơn",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "aaron_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "nawaz_sharif_person_6"
+		},
+		{
+		  "sudden": 4,
+		  "text": "ধন্যবাদ",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "daniel_klaidman_person_6"
+		},
+		{
+		  "sudden": 4,
+		  "text": "спасибо",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "pruitt_person_6"
+		},
+		{
+		  "sudden": 4,
+		  "text": "thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "goldman_person_6"
+		},
+		{
+		  "sudden": 3.5,
+		  "text": "ধন্যবাদ",
+		  "frequency": 6,
+		  "topic": "person",
+		  "id": "anwar_al_awlaki_person_6"
+		},
+		{
+		  "sudden": 3.4,
+		  "text": "谢谢",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "john_brennan_person_6"
+		},
+		{
+		  "sudden": 4,
+		  "text": "спасибо",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "pruitt_person_6"
+		},
+		{
+		  "sudden": 4,
+		  "text": "thank you",
+		  "frequency": 3,
+		  "topic": "person",
+		  "id": "goldman_person_6"
+		},
+		{
+		  "sudden": 3.5,
+		  "text": "ধন্যবাদ",
+		  "frequency": 6,
+		  "topic": "person",
+		  "id": "anwar_al_awlaki_person_6"
+		},
+		{
+		  "sudden": 3.4,
+		  "text": "谢谢",
+		  "frequency": 10,
+		  "topic": "person",
+		  "id": "john_brennan_person_6"
+		},
+		{
+		  "sudden": 5,
+		  "text": "谢谢",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "john_kiriakou_person_10"
+		},
+		{
+		  "sudden": 3,
+		  "text": "Cảm ơn",
+		  "frequency": 8,
+		  "topic": "person",
+		  "id": "dianne_feinstein_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "ধন্যবাদ",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "tommy_vietor_person_9"
+		},
+		{
+		  "sudden": 3,
+		  "text": "спасибо",
+		  "frequency": 2,
+		  "topic": "person",
+		  "id": "sam_alito_person_9"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Cảm ơn",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "aaron_person_10"
+		},
+		{
+		  "sudden": 5,
+		  "text": "спасибо",
+		  "frequency": 4,
+		  "topic": "person",
+		  "id": "jason_leopold_person_10"
+		}
+	  ],
+	  "empty": [],
+	  "location": [
+		{
+		  "sudden": 6,
+		  "text": "Any questions?",
+		  "frequency": 5,
+		  "topic": "location",
+		  "id": "waltham_location_6"
+		},
+		{
+		  "sudden": 6,
+		  "text": "Any questions?",
+		  "frequency": 5,
+		  "topic": "location",
+		  "id": "arabian_peninsula_location_6"
+		},
+		{
+		  "sudden": 5,
+		  "text": "Any questions?",
+		  "frequency": 4,
+		  "topic": "location",
+		  "id": "benghazi_location_6"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 3,
+		  "topic": "location",
+		  "id": "orlando_location_6"
+		},
+		{
+		  "sudden": 4,
+		  "text": "Any questions?",
+		  "frequency": 3,
+		  "topic": "location",
+		  "id": "khost_location_6"
+		}
+	  ]
+	}
+  }
+]

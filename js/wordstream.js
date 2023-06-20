@@ -898,7 +898,7 @@
             });
 
             //Build the legends
-            legendGroup.attr('transform', 'translate(' + margins.left + ',' + (height + margins.top + legendOffset - 30) + ')');
+            legendGroup.attr('transform', 'translate(' + margins.left + ',' + (height + margins.top + legendOffset - 50) + ')');
             let legendNodes = legendGroup.selectAll('g').data(boxes.topics).enter().append('g')
                 .attr('transform', function (d, i) {
                     return 'translate(' + 10 + ',' + (i * (4+legendFont)) + ')';
