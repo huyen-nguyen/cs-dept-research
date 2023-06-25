@@ -24,7 +24,7 @@
 		curve: d3.curveMonotoneX
 	};
 
-	d3.json("../data/thanks.json", function (error, data) {
+	d3.json("data/thanks.json", function (error, data) {
 		console.log(data)
 		wordstream(svg, data, config)
 		d3.select("#legend").remove("*")
